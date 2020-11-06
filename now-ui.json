@@ -1,0 +1,15 @@
+{
+	"components": {
+	    "x-551463-card-list": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Cards",
+				"icon": "document-outline",
+				"description": "4 cards with mock data",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_551463_test_ca_0"
+}
