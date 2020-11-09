@@ -1,12 +1,39 @@
 {
 	"components": {
+		"x-551463-hello-world": {
+	        "innerComponents": [
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Hello World",
+				"icon": "document-outline",
+				"description": "",
+				"category": "primitives"
+			}
+		},
 	    "x-551463-card-list": {
-	        "innerComponents": [],
+	        "innerComponents": [
+				"now-template-card",
+				"now-template-card-assist"
+			],
 			"uiBuilder": {
 				"associatedTypes": ["global.core", "global.landing-page"],
 				"label": "Cards",
 				"icon": "document-outline",
 				"description": "4 cards with mock data",
+				"category": "primitives"
+			}
+		},
+		"x-551463-incident-list": {
+	        "innerComponents": [
+				"now-template-card",
+				"now-template-card-assist"
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Incidents",
+				"icon": "document-outline",
+				"description": "List of incidents from PDI ",
 				"category": "primitives"
 			}
 	    }

@@ -6,9 +6,9 @@ import "@servicenow/now-template-card"
 const view = (state, {updateState}) => {
 	return (
 		<div>
-			<div class="wrapper">
+			<div className="wrapper">
 			
-				<div class="cart">
+				<div className="cart">
 					<now-template-card-assist 
 					tagline={{"icon":"tree-view-long-outline","label":"Incident"}} 
 					actions={[{"id":"share","label":"Copy URL"},{"id":"close","label":"Mark Complete"}]} 
@@ -16,14 +16,14 @@ const view = (state, {updateState}) => {
 					content={[{"label":"Number","value":{"type":"string","value":"INC0000038"}},
 					{"label":"State","value":{"type":"string","value":"Closed"}},
 					{"label":"Assignment Group","value":{"type":"string","value":"Service Desk"}},
-					{"label":"Assignet To","value":{"type":"string","value":"Lukw Wilson"}}]} 
+					{"label":"Assignet To","value":{"type":"string","value":"Luke Wilson"}}]} 
 					contentItemMinWidth={'300'} 
 					footerContent={{"label":"Updated","value":"2020-05-08 17:36:44"}} 
 					configAria={{}}>
 					</now-template-card-assist>
 				</div>
 
-				<div class="cart">
+				<div className="cart">
 					<now-template-card-assist 
 					tagline={{"icon":"tree-view-long-outline","label":"Incident"}} 
 					actions={[{"id":"share","label":"Copy URL"},{"id":"close","label":"Mark Complete"}]} 
@@ -38,7 +38,7 @@ const view = (state, {updateState}) => {
 					</now-template-card-assist>
 				</div>
 
-				<div class="cart">
+				<div className="cart">
 					<now-template-card-assist 
 					tagline={{"icon":"tree-view-long-outline","label":"Incident"}} 
 					actions={[{"id":"share","label":"Copy URL"},{"id":"close","label":"Mark Complete"}]} 
@@ -53,7 +53,7 @@ const view = (state, {updateState}) => {
 					</now-template-card-assist>
 				</div>
 
-				<div class="cart">
+				<div className="cart">
 					<now-template-card-assist 
 					tagline={{"icon":"tree-view-long-outline","label":"Incident"}} 
 					actions={[{"id":"share","label":"Copy URL"},{"id":"close","label":"Mark Complete"}]} 
@@ -71,6 +71,7 @@ const view = (state, {updateState}) => {
 		</div>
 	);
 };
+
 
 createCustomElement('x-551463-card-list', {
 	renderer: {type: snabbdom},
